@@ -1,0 +1,121 @@
+@media(max-width: 1330px) {
+    .header {
+        margin-top: 65px;
+    }
+    .nav {
+        flex-direction: row;
+        width: 100%;
+        right: 0;
+        bottom: auto;
+        padding: 10px 0 0;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .nav-list {
+        display: flex;
+        margin: 0;
+    }
+    .nav:hover {
+        width: auto;
+    }
+    .nav-link {
+        margin: 0 15px 0 0;
+    }
+    .nav-ava {
+        padding-left: 0;
+        padding-right: 20px;
+    }
+}
+@media(max-width: 1120px) {
+    .service {
+        justify-content: space-evenly;
+    }
+    .service-card {
+        max-width: 40%;
+    }
+    .service-card:nth-child(1),
+    .service-card:nth-child(2) {
+        margin-bottom: 30px;
+    }
+    .main-news {
+        max-width: 100%;
+    }
+    .main-news-content, .aside {
+        height: auto;
+    }
+    .main-news-title {
+        text-align: center;
+        padding-left: 0;
+    }
+    .main-news-content p {
+       margin-bottom: 20px;
+    }
+    .aside {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .news-info {
+        max-width: 100%;
+    }
+    .aside-link {
+        width: 40%;
+    }
+    .aside-link:nth-child(1),
+    .aside-link:nth-child(2) {
+        margin-bottom: 20px;
+    }
+}
+@media(max-width: 870px) {
+    .nav-link .fal {
+        display: none;
+    }
+    .header {
+        justify-content: center;
+    }
+    .intro {
+        padding: 0 10px;
+    }
+}
+@media(max-width: 650px) {
+    .service {
+        flex-direction: column;
+        align-items: center;
+    }
+    .service-card {
+        max-width: 255px;
+    }
+    .service-card:nth-child(3) {
+        margin-bottom: 30px;
+    }
+    .aside {
+        flex-direction: column;
+        align-items: center;
+    }
+    .aside-link {
+        max-width: 255px;
+        width: 100%;
+    }
+    .aside-link:nth-child(3) {
+        margin-bottom: 30px;
+    }
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width: 576px) {
+    .intro-title, .footer-content-title {
+        font-size: 35px;
+    }
+    .intro-title {
+        line-height: 50px;
+    }
+    .footer-content {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .footer-contact {
+        align-items: center;
+    }
+}
